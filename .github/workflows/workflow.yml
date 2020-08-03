@@ -13,5 +13,5 @@ jobs:
         myInput: 'Bishwajeett Uday Samanta'
     - name: Output
       run: |
-      echo ${{ steps.hello.outputs.memory }}
-      echo "Total Memory Logged Successfully"
+        echo ${{ steps.hello.outputs.memory }}
+        echo "Total Memory Logged Successfully"
