@@ -1,0 +1,16 @@
+name: 'My First Container Action'
+description: 'Its one of my Interested Subjects!'
+author: 'Bishwajit Samanta'
+inputs:
+  myInput:
+    description: 'It is a Greeting to use'
+    required: true
+    default: 'Hey Bishwajit!!'
+
+outputs:
+  myOutput:
+    description: 'Total Memory'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
