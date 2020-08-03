@@ -10,7 +10,7 @@ jobs:
       id: home
       uses: ./
       with:
-        myInput: 'Bishwajeett Uday Samanta'
+        myInput: 'Github Actions!'
     - name: Output
       run: |
         echo ${{ steps.home.outputs.memory }}
