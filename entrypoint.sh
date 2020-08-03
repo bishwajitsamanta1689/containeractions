@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Hello $INPUT_MYINPUT"
+echo "Hello $say_input"
 memory=$(cat /proc/meminfo)
 
 # Setting Variables for Github Actions Workflow to Work
